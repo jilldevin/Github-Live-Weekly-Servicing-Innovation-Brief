@@ -44,7 +44,9 @@ A survey of enterprises found a majority of deployed AI customer-service agents 
 
 ## Startup Landscape
 
-Auditability ([EU-Startups: French observability startup Tsuga lands €30 million to expand AI agent platform](https://www.eu-startups.com/2026/06/french-observability-startup-tsuga-lands-e30-million-to-expand-ai-agent-platform/)) (June 2026). The startup offers agent observability with telemetry kept in the customer's own cloud. This is a foundational tool to keep in mind as we build our own stack, or evaluate a partner's. Three questions for consideration: (1) cost of scaling autonomous servicing while ensuring data is governed, auditable and logged, (2) where does the AXP or vendor operational data go, and who can see it? (3) sampling agentic workflows vs constant monitoring of agent decisions, failures, latency, handoffs, escalation triggers and drift: Sampling data to manage cost could weaken risk controls. Tsuga is betting that an enterprise will need complete observability without shipping data outside of their environment.
+### Auditability 
+
+([EU-Startups: French observability startup Tsuga lands €30 million to expand AI agent platform](https://www.eu-startups.com/2026/06/french-observability-startup-tsuga-lands-e30-million-to-expand-ai-agent-platform/)) (June 2026). The startup offers agent observability with telemetry kept in the customer's own cloud. This is a foundational tool to keep in mind as we build our own stack, or evaluate a partner's. Three questions for consideration: (1) cost of scaling autonomous servicing while ensuring data is governed, auditable and logged, (2) where does the AXP or vendor operational data go, and who can see it? (3) sampling agentic workflows vs constant monitoring of agent decisions, failures, latency, handoffs, escalation triggers and drift: Sampling data to manage cost could weaken risk controls. Tsuga is betting that an enterprise will need complete observability without shipping data outside of their environment.
 
 ---
 
