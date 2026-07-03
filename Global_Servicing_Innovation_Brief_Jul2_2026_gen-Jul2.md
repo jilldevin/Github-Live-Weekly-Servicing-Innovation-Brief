@@ -8,7 +8,7 @@
 
 ### LLM Model Updates
 
-Anthropic restored global access to Fable 5 after a three-week government suspension.  ([Anthropic](https://www.anthropic.com/news/redeploying-fable-5)).
+Anthropic restored global access to Fable 5 after a three-week government suspension ([Anthropic](https://www.anthropic.com/news/redeploying-fable-5)).
 
 Anthropic shipped Claude Sonnet 5, pushing agent-grade capability down the price curve. Also on June 30, Anthropic released Sonnet 5, describing performance close to its Opus 4.8 flagship at lower prices ([Anthropic](https://www.anthropic.com/news/claude-sonnet-5)).
 
@@ -28,13 +28,17 @@ Micron and Anthropic strategic agreement (June 22): Micron Technology and AI lab
 
 ## Industry Moves - Competitors
 
-Agentic Payments Mastercard launched a payment layer built for AI agents to pay each other automatically. On June 10 Mastercard introduced Agent Pay for Machines, a service that lets AI agents and connected systems settle payments across cards, bank accounts, and stablecoins, with 30-plus partners including Stripe and Coinbase ([Mastercard](https://investor.mastercard.com/investor-news/investor-news-details/2026/Mastercard-Launches-Agent-Pay-for-Machines-to-Unlock-Super-Fast-Always-On-Payments/default.aspx)). Agent-initiated transactions create new dispute, refund, and exception paths. AXP already guarantees Agent Purchase Protection on authenticated agent purchases.
+### Agentic Payments 
 
-Agent-initiated payments are reaching prosumer workflows (trend, The Rundown AI). The Rundown AI, a daily newsletter that says it reaches 2M readers, ran a hands-on feature educating readers on how to hand an AI agent your credit card ([The Rundown AI](https://www.therundown.ai/)) ([GuideHere](https://app.therundown.ai/guides/give-an-ai-agent-a-credit-card-safely?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=white-house-reins-in-openai-s-gpt-5-6&_bhlid=fa623974353500eda40e2627d6214dd690637292)). Mass audience newsletters are teaching readers to hand agents payment credentials, and agent-initiated charges will soon shift from an item on an enterprise roadmap to member behavior. For consideration: who handles the dispute when an agent makes the charge? Are there any differences in protection for Consumers vs Businesses?
+Mastercard launched a payment layer built for AI agents to pay each other automatically. On June 10 Mastercard introduced Agent Pay for Machines, a service that lets AI agents and connected systems settle payments across cards, bank accounts, and stablecoins, with 30-plus partners including Stripe and Coinbase ([Mastercard](https://investor.mastercard.com/investor-news/investor-news-details/2026/Mastercard-Launches-Agent-Pay-for-Machines-to-Unlock-Super-Fast-Always-On-Payments/default.aspx)). Agent-initiated transactions create new dispute, refund, and exception paths. AXP already guarantees Agent Purchase Protection on authenticated agent purchases.
 
-FIS launched a platform that lets issuing banks authenticate and authorize AI-initiated transactions out of the box. FIS said it is partnering with Mastercard and Visa to let banks safely accept agent-initiated payments across those networks ([FIS](https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-launches-industry-first-ai-transaction-platform-to-help-banks-lead)). AXP to build agentic payment rails to match what FIS, Mastercard, and Visa now offer.
+The Rundown AI, a daily newsletter that says it reaches 2M readers, ran a hands-on feature educating readers on how to hand an AI agent your credit card ([The Rundown AI](https://www.therundown.ai/)) ([GuideHere](https://app.therundown.ai/guides/give-an-ai-agent-a-credit-card-safely?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=white-house-reins-in-openai-s-gpt-5-6&_bhlid=fa623974353500eda40e2627d6214dd690637292)).
 
-CX Agent Controls A survey of enterprises found a majority of deployed AI customer-service agents get pulled back. "Personal identifiable information (PII) or customer data exposure is the leading cause among those that reported a governance failure rollback, cited by 31% of organizations. Hallucination or brand risk is second at 22%. Lack of auditability – the inability to diagnose what went wrong – is third at 16%." For consideration: if something went wrong in production now, how fast would we see it? Would you know there was a failure before your customers? Monitoring gaps results in highest risk ([Sinch](https://sinch.com/ai-production-paradox/chapter/ai-production-challenges/)).
+FIS launched a platform that lets issuing banks authenticate and authorize AI-initiated transactions out of the box. FIS said it is partnering with Mastercard and Visa to let banks safely accept agent-initiated payments across those networks ([FIS](https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-launches-industry-first-ai-transaction-platform-to-help-banks-lead)). 
+
+### Governance & Controls
+
+A survey of enterprises found a majority of deployed AI customer-service agents get pulled back. "Personal identifiable information (PII) or customer data exposure is the leading cause among those that reported a governance failure rollback, cited by 31% of organizations. Hallucination or brand risk is second at 22%. Lack of auditability – the inability to diagnose what went wrong – is third at 16%." For consideration: if something went wrong in production now, how fast would we see it? Would you know there was a failure before your customers? Monitoring gaps results in highest risk ([Sinch](https://sinch.com/ai-production-paradox/chapter/ai-production-challenges/)).
 
 ---
 
@@ -46,7 +50,7 @@ Auditability ([EU-Startups: French observability startup Tsuga lands €30 milli
 
 ## Ideas Worth Borrowing
 
-What a team looks like when AI writes the first pass (opinion, Lenny's Podcast). Fiona Fung, who runs the Claude Code and Cowork engineering teams at Anthropic, described her group's operating model in a June 21 episode: Claude "routines" have changed how she operates as a manager, spending time on designing recurring loops rather than reviewing individual work Consideration: Fiona frames the manager's job as shifting from checking work to designing the loops that check work. In the future, how could rep-assist tools play the role of a CCP? ([Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering)).
+What a team looks like when AI writes the first pass (opinion, Lenny's Podcast). Fiona Fung, who runs the Claude Code and Cowork engineering teams at Anthropic, described her group's operating model in a June 21 episode: Claude "routines" have changed how she operates as a manager, spending time on designing recurring loops rather than reviewing individual work Consideration: Fiona frames the manager's job as shifting from checking work to designing the loops that check work ([Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering)).
 
 ---
 
